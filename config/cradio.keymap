@@ -12,7 +12,7 @@
 #define BASE 0
 #define TRI 1
 #define ALF1 2
-#define ALF2 3
+#define ALF2 2
 #define ALF3 4
 #define ALF4 5
 #define ALF5 6
