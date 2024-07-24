@@ -36,7 +36,7 @@
         alfa_1 {
             bindings = <
 &none  &none  &none  &none      &none      &none          &none       &none  &none  &none
-&none  &kp F  &kp M  &kp W      &none      &none          &kp E       &kp A  &kp O  &none
+&none  &kp F  &kp M  &kp W      &none      &none          &kp E       &kp N  &kp I  &none
 &none  &none  &none  &none      &none      &none          &none       &none  &none  &none
                      &kp SPACE  &kp TAB    &kp BACKSPACE  &lt 0 BSPC
             >;
@@ -45,7 +45,7 @@
         alfa_2 {
             bindings = <
 &none  &none  &none  &none      &none      &none          &none       &none  &none  &none
-&none  &kp H  &kp N  &kp T      &none      &none          &kp M       &kp V  &kp C  &none
+&none  &kp A  &kp R  &kp L      &none      &none          &kp M       &kp V  &kp C  &none
 &none  &none  &none  &none      &none      &none          &none       &none  &none  &none
                      &kp SPACE  &kp TAB    &kp BACKSPACE  &lt 0 BSPC
             >;
