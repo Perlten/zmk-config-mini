@@ -62,7 +62,7 @@
         alfa_2 {
             bindings = <
 &none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-&none  &kp A  &kp R  &kp L      &none      &none  &none       &none  &none  &none
+&none  &kp A  &kp R  &kp L      &none      &none  &kp U       &kp D  &kp Y  &none
 &none  &none  &none  &none      &none      &none  &none       &none  &none  &none
                      &kp SPACE  &kp TAB    &to 0  &lt 0 BSPC
             >;
