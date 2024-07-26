@@ -71,7 +71,7 @@
         alfa_3 {
             bindings = <
 &none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-&none  &none  &none  &none      &none      &none  &none       &none  &none  &none
+&none  &none  &none  &none      &none      &none  &kp C       &kp G  &kp H  &none
 &none  &none  &none  &none      &none      &none  &none       &none  &none  &none
                      &kp SPACE  &kp TAB    &to 0  &lt 0 BSPC
             >;
