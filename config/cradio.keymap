@@ -30,7 +30,7 @@
         sk_mod: sk_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "SK_MOD";
-            bindings = <&sk>, <&mo>;
+            bindings = <&mo>, <&sk>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -62,7 +62,7 @@
             bindings = <
 &bootloader       &none     &none      &none            &none      &none          &none                &none           &none         &none
 &shift_caps_word  &sl 5     &sl 3      &sl 1            &none      &none          &sl 2                &sl 4           &sl 6         &none
-&none             &sk LALT  &sk LSHFT  &sk_mod LCTRL 9  &none      &none          &sk_mod LCTRL 9      &sk LEFT_SHIFT  &sk LEFT_ALT  &none
+&none             &sk LALT  &sk LSHFT  &sk_mod 9 LCTRL  &none      &none          &sk_mod 8 LCTRL      &sk LEFT_SHIFT  &sk LEFT_ALT  &none
                                        &lt 8 SPACE      &kp TAB    &kp BACKSPACE  &wtile_mouse_switch
             >;
         };
