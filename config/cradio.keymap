@@ -87,7 +87,7 @@
         base_layer {
             bindings = <
 &none             &none     &none                 &none        &none             &none          &none                &none            &none         &none
-&shift_caps_word  &sl 5     &sl 3                 &sl 1        &none             &none          &sl 2                &sl 4            &sl 6         &none
+&shift_caps_word  &sl 5     &sl 3                 &sl 1        &none             &none          &sl 2                &sl 4            &sl 6         &key_repeat
 &none             &sk LALT  &mod_sk 9 LEFT_SHIFT  &sk LCTRL    &none             &none          &sk LCTRL            &mod_sk 9 LSHFT  &sk LEFT_ALT  &none
                                                   &lt 8 SPACE  &mod_sk 12 TAB    &kp BACKSPACE  &wtile_mouse_switch
             >;
@@ -158,10 +158,10 @@
 
         navigation {
             bindings = <
-&none  &none     &none          &none    &none    &none       &none      &none     &none      &none
-&none  &kp HOME  &kp PG_UP      &kp END  &none    &none       &kp LEFT   &kp UP    &kp RIGHT  &none
-&none  &none     &kp PAGE_DOWN  &none    &none    &none       &none      &kp DOWN  &none      &none
-                                &none    &none    &kp ESCAPE  &kp ENTER
+&none  &none     &none      &none    &none    &none       &none      &none     &none      &none
+&none  &kp HOME  &kp LCTRL  &kp END  &none    &none       &kp LEFT   &kp UP    &kp RIGHT  &none
+&none  &none     &none      &none    &none    &none       &none      &kp DOWN  &none      &none
+                            &none    &none    &kp ESCAPE  &kp ENTER
             >;
         };
 
