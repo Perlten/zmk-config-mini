@@ -191,5 +191,14 @@
                      &trans  &trans    &trans  &trans
             >;
         };
+
+        symbol {
+            bindings = <
+&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+                     &none  &none    &none  &none
+            >;
+        };
     };
 };
