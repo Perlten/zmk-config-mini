@@ -64,6 +64,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <10 11 12 13>;
+        };
+
+        to_gamer {
+            bindings = <&to 10>;
+            key-positions = <16 17 18 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
