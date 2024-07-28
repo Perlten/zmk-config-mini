@@ -158,19 +158,19 @@
 
         navigation {
             bindings = <
-&none  &none  &none  &none  &none    &none       &none      &none     &none      &none
-&none  &none  &none  &none  &none    &none       &kp LEFT   &kp UP    &kp RIGHT  &none
-&none  &none  &none  &none  &none    &none       &none      &kp DOWN  &none      &none
-                     &none  &none    &kp ESCAPE  &kp ENTER
+&none  &none     &none          &none    &none    &none       &none      &none     &none      &none
+&none  &kp HOME  &kp PG_UP      &kp END  &none    &none       &kp LEFT   &kp UP    &kp RIGHT  &none
+&none  &none     &kp PAGE_DOWN  &none    &none    &none       &none      &kp DOWN  &none      &none
+                                &none    &none    &kp ESCAPE  &kp ENTER
             >;
         };
 
         numbers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
-&trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &kp N0  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&trans  &trans           &trans           &trans           &trans    &trans  &trans      &trans     &trans     &trans
+&trans  &ht F1 NUMBER_1  &ht F2 NUMBER_2  &ht F3 NUMBER_3  &trans    &trans  &ht F7 N7   &ht F8 N8  &ht F9 N9  &trans
+&trans  &ht F4 NUMBER_4  &ht F5 N5        &ht F6 NUMBER_6  &trans    &trans  &ht F10 N0  &kp F11    &kp F12    &trans
+                                          &trans           &trans    &trans  &trans
             >;
         };
 
