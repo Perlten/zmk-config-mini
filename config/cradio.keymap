@@ -132,7 +132,7 @@
         alfa_5 {
             bindings = <
 &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none  &kp J  &kp Q  &none    &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
                      &none  &none    &none  &none
             >;
