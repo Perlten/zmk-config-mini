@@ -33,7 +33,7 @@
             bindings = <&mo>, <&sk>;
 
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <200>;
         };
 
@@ -194,10 +194,10 @@
 
         symbol {
             bindings = <
-&none  &none  &none  &none              &none    &none  &none  &none  &none  &none
-&none  &none  &none  &ht LS(N8) LS(N8)  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none              &none    &none  &none  &none  &none  &none
-                     &none              &none    &none  &none
+&none  &none  &none                       &none              &none    &none  &none  &none  &none  &none
+&none  &none  &ht RIGHT_BRACE LEFT_BRACE  &ht LS(N8) LS(N9)  &none    &none  &none  &none  &none  &none
+&none  &none  &none                       &none              &none    &none  &none  &none  &none  &none
+                                          &none              &none    &none  &none
             >;
         };
     };
