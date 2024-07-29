@@ -194,10 +194,10 @@
 
         symbol {
             bindings = <
-&none  &none  &none                       &none              &none    &none  &none  &none  &none  &none
-&none  &none  &ht RIGHT_BRACE LEFT_BRACE  &ht LS(N8) LS(N9)  &none    &none  &none  &none  &none  &none
-&none  &none  &none                       &none              &none    &none  &none  &none  &none  &none
-                                          &none              &none    &none  &none
+&none  &none  &none  &none              &none    &none  &none  &none  &none  &none
+&none  &none  &none  &ht LS(N9) LS(N8)  &none    &none  &none  &none  &none  &none
+&none  &none  &none  &none              &none    &none  &none  &none  &none  &none
+                     &none              &none    &none  &none
             >;
         };
     };
