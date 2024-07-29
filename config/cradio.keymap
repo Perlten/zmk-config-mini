@@ -150,10 +150,10 @@
 
         alfa_6 {
             bindings = <
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-                     &none  &none    &none  &none
+&none  &none  &none            &none          &none    &none  &none  &none  &none  &none
+&none  &none  &ht MINUS UNDER  &ht COMMA DOT  &none    &none  &none  &none  &none  &none
+&none  &none  &none            &none          &none    &none  &none  &none  &none  &none
+                               &none          &none    &none  &none
             >;
         };
 
