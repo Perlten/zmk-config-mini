@@ -222,10 +222,10 @@
 
         mod {
             bindings = <
-&trans  &trans    &trans     &trans                &trans    &trans  &trans                &trans     &trans    &trans
-&trans  &trans    &trans     &kp_sk LGUI LEFT_GUI  &trans    &trans  &kp_sk LGUI LEFT_GUI  &trans     &trans    &trans
-&trans  &kp LALT  &kp LSHFT  &kp LCTRL             &trans    &trans  &kp LCTRL             &kp LSHFT  &kp LALT  &trans
-                             &trans                &trans    &trans  &trans
+&trans  &trans             &trans           &trans              &trans    &trans  &trans  &trans      &trans  &trans
+&trans  &sk LEFT_ALT       &sk LEFT_SHIFT   &sk LCTRL           &trans    &trans  &none   &trans      &trans  &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp_sk LMETA LMETA  &trans    &trans  &none   &kp K_MUTE  &none   &trans
+                                            &trans              &trans    &trans  &trans
             >;
         };
     };
