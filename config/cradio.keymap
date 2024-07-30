@@ -56,6 +56,15 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
         };
+
+        kp_sk: kp_sk {
+            compatible = "zmk,behavior-hold-tap";
+            label = "KP_SK";
+            bindings = <&kp>, <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -96,10 +105,10 @@
 
         base_layer {
             bindings = <
-&none             &none     &none                 &none        &none            &none          &none                &none            &none         &none
-&shift_caps_word  &sl 5     &sl 3                 &sl 1        &none            &none          &sl 2                &sl 4            &sl 6         &key_repeat
-&none             &sk LALT  &mod_sk 9 LEFT_SHIFT  &sk LCTRL    &none            &none          &sk LCTRL            &mod_sk 9 LSHFT  &sk LEFT_ALT  &none
-                                                  &lt 8 SPACE  &mo_kp 12 TAB    &kp BACKSPACE  &wtile_mouse_switch
+&none             &none  &none  &none        &none            &none          &none                &none  &none  &none
+&shift_caps_word  &sl 5  &sl 3  &sl 1        &none            &none          &sl 2                &sl 4  &sl 6  &key_repeat
+&none             &none  &mo 9  &sl 13       &none            &none          &sl 13               &mo 9  &none  &none
+                                &lt 8 SPACE  &mo_kp 12 TAB    &kp BACKSPACE  &wtile_mouse_switch
             >;
         };
 
@@ -150,9 +159,9 @@
 
         alfa_6 {
             bindings = <
-&none  &none              &none            &none          &none    &none  &none  &none  &none  &none
-&none  &ht LS(FSLH) FSLH  &ht MINUS UNDER  &ht COMMA DOT  &none    &none  &none  &none  &none  &none
-&none  &none              &none            &none          &none    &none  &none  &none  &none  &none
+&none  &none              &none            &none          &none    &none  &none  &none  &none         &none
+&none  &ht LS(FSLH) FSLH  &ht MINUS UNDER  &ht COMMA DOT  &none    &none  &none  &none  &sk LEFT_WIN  &none
+&none  &none              &none            &none          &none    &none  &none  &none  &none         &none
                                            &none          &none    &none  &none
             >;
         };
@@ -208,6 +217,15 @@
 &none  &none  &none  &ht LS(N9) LS(N8)  &none    &none  &none  &none  &none  &none
 &none  &none  &none  &none              &none    &none  &none  &none  &none  &none
                      &none              &none    &none  &none
+            >;
+        };
+
+        mod {
+            bindings = <
+&trans  &trans    &trans     &trans                &trans    &trans  &trans                &trans     &trans    &trans
+&trans  &trans    &trans     &kp_sk LGUI LEFT_GUI  &trans    &trans  &kp_sk LGUI LEFT_GUI  &trans     &trans    &trans
+&trans  &kp LALT  &kp LSHFT  &kp LCTRL             &trans    &trans  &kp LCTRL             &kp LSHFT  &kp LALT  &trans
+                             &trans                &trans    &trans  &trans
             >;
         };
     };
