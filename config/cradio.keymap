@@ -65,6 +65,17 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        Test: Test {
+            compatible = "zmk,behavior-sticky-key";
+            label = "TEST";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <300>;
+            ignore-modifiers;
+            lazy;
+            quick-release;
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -231,10 +242,10 @@
 
         mod {
             bindings = <
-&trans  &trans             &trans           &trans              &trans    &trans  &trans            &trans      &trans      &trans
-&trans  &sk LEFT_ALT       &sk LEFT_SHIFT   &sk LCTRL           &trans    &trans  &none             &kp C_PREV  &kp C_NEXT  &trans
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp_sk LMETA LMETA  &trans    &trans  &kp C_PLAY_PAUSE  &kp C_MUTE  &none       &trans
-                                            &trans              &trans    &trans  &trans
+&trans  &trans             &trans            &trans              &trans    &trans  &trans            &trans      &trans      &trans
+&trans  &Test LEFT_ALT     &Test LEFT_SHIFT  &Test LCTRL         &trans    &trans  &none             &kp C_PREV  &kp C_NEXT  &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp_sk LMETA LMETA  &trans    &trans  &kp C_PLAY_PAUSE  &kp C_MUTE  &none       &trans
+                                             &trans              &trans    &trans  &trans
             >;
         };
     };
