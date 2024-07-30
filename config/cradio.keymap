@@ -8,6 +8,8 @@
 
 &sl { release-after-ms = <500>; };
 
+&sk { lazy; };
+
 / {
     behaviors {
         ht: hold_tap {
