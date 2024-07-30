@@ -6,10 +6,7 @@
 
 // Home row mods macro
 
-&sl {
-    release-after-ms = <500>;
-    ignore-modifiers;
-};
+&sl { release-after-ms = <500>; };
 
 / {
     behaviors {
