@@ -6,7 +6,11 @@
 
 // Home row mods macro
 
-&sl { release-after-ms = <500>; };
+&sl {
+    release-after-ms = <500>;
+
+    /delete-property/ quick-release;
+};
 
 / {
     behaviors {
