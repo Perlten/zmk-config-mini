@@ -159,9 +159,9 @@
 
         alfa_6 {
             bindings = <
-&none  &none              &none            &none          &none    &none  &none  &none  &none         &none
-&none  &ht LS(FSLH) FSLH  &ht MINUS UNDER  &ht COMMA DOT  &none    &none  &none  &none  &sk LEFT_WIN  &none
-&none  &none              &none            &none          &none    &none  &none  &none  &none         &none
+&none  &none              &none            &none          &none    &none  &none  &none  &none  &none
+&none  &ht LS(FSLH) FSLH  &ht MINUS UNDER  &ht COMMA DOT  &none    &none  &none  &none  &none  &none
+&none  &none              &none            &none          &none    &none  &none  &none  &none  &none
                                            &none          &none    &none  &none
             >;
         };
@@ -177,10 +177,10 @@
 
         navigation {
             bindings = <
-&none  &none     &none      &none    &none    &none       &none      &none     &none      &none
-&none  &kp HOME  &kp LCTRL  &kp END  &none    &none       &kp LEFT   &kp UP    &kp RIGHT  &none
-&none  &none     &none      &none    &none    &none       &none      &kp DOWN  &none      &none
-                            &none    &none    &kp ESCAPE  &kp ENTER
+&none  &none     &none          &none    &none    &none       &none      &none     &none      &none
+&none  &kp HOME  &kp PAGE_UP    &kp END  &none    &none       &kp LEFT   &kp UP    &kp RIGHT  &none
+&none  &none     &kp PAGE_DOWN  &none    &none    &none       &none      &kp DOWN  &none      &none
+                                &none    &none    &kp ESCAPE  &kp ENTER
             >;
         };
 
