@@ -94,9 +94,9 @@
         };
 
         to_gamer {
-            bindings = <&tog 10>;
+            bindings = <&tog 11>;
             key-positions = <16 17 18 19>;
-            layers = <0 10>;
+            layers = <0 11>;
         };
     };
 
@@ -107,8 +107,8 @@
             bindings = <
 &none             &none  &none  &none        &none            &none          &none                &none  &none  &none
 &shift_caps_word  &sl 5  &sl 3  &sl 1        &none            &none          &sl 2                &sl 4  &sl 6  &key_repeat
-&none             &none  &mo 9  &none        &none            &none          &sl 13               &mo 9  &none  &none
-                                &lt 8 SPACE  &mo_kp 12 TAB    &kp BACKSPACE  &wtile_mouse_switch
+&none             &none  &mo 9  &none        &none            &none          &sl 14               &mo 9  &none  &none
+                                &lt 8 SPACE  &mo_kp 13 TAB    &kp BACKSPACE  &wtile_mouse_switch
             >;
         };
 
@@ -193,12 +193,21 @@
             >;
         };
 
+        witle {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
+
         gamer {
             bindings = <
 &ht TAB ESCAPE  &kp Q  &kp W  &kp E      &kp R                 &kp T   &kp Y      &kp U  &kp I  &kp O
 &kp LSHFT       &kp A  &kp S  &kp D      &kp F                 &kp G   &kp H      &kp J  &kp K  &kp L
 &kp LCTRL       &kp Z  &kp X  &kp C      &kp V                 &kp B   &kp N      &kp M  &kp P  &trans
-                              &kp SPACE  &kp_sl LEFT_ALT 11    &trans  &kp ENTER
+                              &kp SPACE  &kp_sl LEFT_ALT 12    &trans  &kp ENTER
             >;
         };
 
