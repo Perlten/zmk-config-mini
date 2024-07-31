@@ -124,55 +124,55 @@
 
         alfa_1 {
             bindings = <
-&none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-&none  &kp S  &kp O  &kp T      &none      &none  &kp E       &kp N  &kp I  &none
-&none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-                     &kp SPACE  &kp TAB    &to 0  &lt 0 BSPC
+&none  &none  &none  &none      &none      &none     &none       &none  &none  &none
+&none  &kp S  &kp O  &kp T      &none      &none     &kp E       &kp N  &kp I  &none
+&none  &none  &none  &none      &none      &none     &none       &none  &none  &none
+                     &kp SPACE  &kp TAB    &kp BSPC  &lt 0 BSPC
             >;
         };
 
         alfa_2 {
             bindings = <
-&none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-&none  &kp A  &kp R  &kp L      &none      &none  &kp U       &kp D  &kp Y  &none
-&none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-                     &kp SPACE  &kp TAB    &to 0  &lt 0 BSPC
+&none  &none  &none  &none      &none      &none     &none     &none  &none  &none
+&none  &kp A  &kp R  &kp L      &none      &none     &kp U     &kp D  &kp Y  &none
+&none  &none  &none  &none      &none      &none     &none     &none  &none  &none
+                     &kp SPACE  &kp TAB    &kp BSPC  &kp BSPC
             >;
         };
 
         alfa_3 {
             bindings = <
-&none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-&none  &kp P  &kp M  &kp K      &none      &none  &kp C       &kp G  &kp H  &none
-&none  &none  &none  &none      &none      &none  &none       &none  &none  &none
-                     &kp SPACE  &kp TAB    &to 0  &lt 0 BSPC
+&none  &none  &none  &none      &none      &none     &none     &none  &none  &none
+&none  &kp P  &kp M  &kp K      &none      &none     &kp C     &kp G  &kp H  &none
+&none  &none  &none  &none      &none      &none     &none     &none  &none  &none
+                     &kp SPACE  &kp TAB    &kp BSPC  &kp BSPC
             >;
         };
 
         alfa_4 {
             bindings = <
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &kp Z  &kp X  &kp V  &none    &none  &kp W  &kp B  &kp F  &none
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-                     &none  &none    &none  &none
+&none  &none  &none  &none  &none    &none     &none     &none  &none  &none
+&none  &kp Z  &kp X  &kp V  &none    &none     &kp W     &kp B  &kp F  &none
+&none  &none  &none  &none  &none    &none     &none     &none  &none  &none
+                     &none  &none    &kp BSPC  &kp BSPC
             >;
         };
 
         alfa_5 {
             bindings = <
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &kp J  &kp Q  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-                     &none  &none    &none  &none
+&none  &none  &none  &none  &none    &none     &none  &none  &none  &none
+&none  &none  &kp J  &kp Q  &none    &none     &none  &none  &none  &none
+&none  &none  &none  &none  &none    &none     &none  &none  &none  &none
+                     &none  &none    &kp BSPC  &none
             >;
         };
 
         alfa_6 {
             bindings = <
-&none  &none              &none            &none          &none    &none  &none  &none  &none  &none
-&none  &ht LS(FSLH) FSLH  &ht MINUS UNDER  &ht COMMA DOT  &none    &none  &none  &none  &none  &none
-&none  &none              &none            &none          &none    &none  &none  &none  &none  &none
-                                           &none          &none    &none  &none
+&none  &none              &none            &none          &none    &none     &none  &none  &none  &none
+&none  &ht LS(FSLH) FSLH  &ht MINUS UNDER  &ht COMMA DOT  &none    &none     &none  &none  &none  &none
+&none  &none              &none            &none          &none    &none     &none  &none  &none  &none
+                                           &none          &none    &kp BSPC  &none
             >;
         };
 
